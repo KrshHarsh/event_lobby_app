@@ -1,16 +1,28 @@
-# event_lobby_app
+# Event Lobby App 🎟️
 
-A new Flutter project.
+A Flutter application to explore and book local events — with dark theme support.
 
-## Getting Started
+## ✨ Features
+- View detailed event information  
+- Offline booking simulation  
+- Dynamic dark/light theme support  
+- Location, ticket, and community insights  
 
-This project is a starting point for a Flutter application.
+## 🧑‍💻 Tech Stack
+- Flutter  
+- Riverpod (state management)  
+- Firebase (optional)  
+- REST APIs  
 
-A few resources to get you started if this is your first Flutter project:
+## 🚀 Run Locally
+Clone the repo and run:
+```bash
+git clone https://github.com/KrshHarsh/event_lobby_app.git
+cd event_lobby_app
+flutter pub get
+flutter run
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+apk link - https://drive.google.com/file/d/1Qao445vqdPoZPFPqWKcXawVDzyyQKfMD/view?usp=share_link
+video link - https://drive.google.com/file/d/1KRHK-SFaMAG_rTvjmrCWXniDYTkWwvYp/view?usp=share_link
