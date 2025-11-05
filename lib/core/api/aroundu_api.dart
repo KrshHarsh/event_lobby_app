@@ -3,12 +3,11 @@ import 'package:dio/dio.dart';
 class AroundUApi {
   final Dio _dio;
 
-  AroundUApi(String token)
+  AroundUApi()
       : _dio = Dio(
           BaseOptions(
             baseUrl: 'https://api.aroundu.in',
             headers: {
-              'Authorization': 'Bearer $token',
               'Accept': '*/*',
             },
             connectTimeout: const Duration(seconds: 10),

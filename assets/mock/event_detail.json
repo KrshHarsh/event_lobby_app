@@ -1,0 +1,55 @@
+{
+  "lobby": {
+    "id": "mock-event-1",
+    "title": "Goa Beach Music Festival",
+    "category": "Music",
+    "subCategory": "Live Concert",
+    "participants": { "joined": 16, "capacity": 250 },
+    "status": "Open spots",
+    "views": 524,
+    "start_date": "2025-12-21T18:00:00Z",
+    "end_date": "2025-12-21T23:00:00Z",
+    "venue": { "lat": 15.4909, "lng": 73.8278, "address": "Goa Beach, India" },
+    "description_delta": { "ops": [ { "insert": "Join us for an unforgettable night of music, waves, and fun!\n" } ] },
+    "images": [
+      "https://picsum.photos/seed/1/1200/600",
+      "https://picsum.photos/seed/2/1200/600",
+      "https://picsum.photos/seed/3/1200/600",
+      "https://picsum.photos/seed/4/1200/600",
+      "https://picsum.photos/seed/5/1200/600",
+      "https://picsum.photos/seed/6/1200/600"
+    ],
+    "tickets": [
+      {
+        "id": "t1",
+        "name": "General Entry",
+        "description": "Access to main event area",
+        "price": 499,
+        "original_price": 799,
+        "available": 241,
+        "total": 250
+      },
+      {
+        "id": "t2",
+        "name": "VIP Pass",
+        "description": "Backstage access + drinks",
+        "price": 1999,
+        "original_price": 2499,
+        "available": 9,
+        "total": 10
+      }
+    ],
+    "host": {
+      "id": "h1",
+      "name": "Beach House Community",
+      "description": "We organize unforgettable beachside experiences for music lovers.",
+      "image": "https://i.pravatar.cc/100?img=12"
+    },
+    "insights": {
+      "avg_age": 28,
+      "gender_ratio": { "M": 62, "F": 38 },
+      "top_interests": ["Music", "Beach", "DJ Sets", "Food"],
+      "crowd_summary": "Mostly 25-35, music lovers and travelers"
+    }
+  }
+}
